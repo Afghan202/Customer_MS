@@ -46,7 +46,6 @@ const AddUser = () => {
                      onChange={inputhandler}
                       autoComplete='off' />
                     </div>
-
                     <div className='inputGroup'>
                     <label htmlFor="lastName">lastName:</label>
                     <input type="text" placeholder='Enter LastName Here'
@@ -55,7 +54,6 @@ const AddUser = () => {
                      onChange={inputhandler}
                       autoComplete='off' />
                     </div>
-
                     <div className='inputGroup'>
                     <label htmlFor="address">Address:</label>
                     <input type="text" id='address'
